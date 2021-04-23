@@ -1,7 +1,8 @@
+#https://www.geeksforgeeks.org/how-to-write-the-output-to-html-file-with-python-beautifulsoup/
 import requests
 from bs4 import BeautifulSoup
 
-urls = 'https://www.simplilearn.com/tutorials/python-tutorial/python-automation-projects'
+urls = 'https://www.discountbank.co.il/DB/private'
 grab = requests.get(urls)
 soup = BeautifulSoup(grab.text, 'html.parser')
 
